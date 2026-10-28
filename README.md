@@ -2,7 +2,7 @@
 
 本机 Claude Code 配置快照，记录当前启用的技能（来自插件）与 MCP 服务器的来源。导出日期 2026-10-28，Claude Code 2.1.311，macOS。
 
-共安装 17 个插件（13 个启用），提供 80 个技能；6 个 MCP 服务器全部为 stdio 传输。
+共安装 13 个插件（全部启用），提供 80 个技能；6 个 MCP 服务器全部为 stdio 传输。
 
 ## 技能（按插件）
 
@@ -19,15 +19,6 @@
 | slide-maker | 5.8.0 | 启用 | 1 个：slide-maker | [addsumtech/slides_maker](https://github.com/addsumtech/slides_maker) |
 
 合计 80 个技能。
-
-### 已安装但停用
-
-| 插件 | 版本 | 来源 |
-|---|---|---|
-| ponytail | 4.10.0 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
-| planning-with-files | 3.22.0 | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) |
-| ecc | 2.2.3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) |
-| aegis | 2.12.1 | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) |
 
 ### 语言服务器插件（无技能，只提供 LSP）
 
@@ -60,10 +51,6 @@ claude plugin marketplace add anthropics/claude-plugins-official
 claude plugin marketplace add JuliusBrussee/caveman
 claude plugin marketplace add multica-ai/andrej-karpathy-skills
 claude plugin marketplace add addsumtech/slides_maker
-claude plugin marketplace add DietrichGebert/ponytail
-claude plugin marketplace add OthmanAdi/planning-with-files
-claude plugin marketplace add affaan-m/ECC
-claude plugin marketplace add GanyuanRan/Aegis
 
 # 2. 安装插件
 claude plugin install superpowers@claude-plugins-official
