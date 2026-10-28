@@ -2,7 +2,7 @@
 
 本机 Claude Code 配置快照，记录当前启用的技能（来自插件）与 MCP 服务器的来源。导出日期 2026-10-28，Claude Code 2.1.311，macOS。
 
-共安装 17 个插件（13 个启用），提供 68 个技能；6 个 MCP 服务器全部为 stdio 传输。
+共安装 17 个插件（13 个启用），提供 80 个技能；6 个 MCP 服务器全部为 stdio 传输。
 
 ## 技能（按插件）
 
@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | superpowers | 7.0.0 | 启用 | 15 个：brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | caveman | 2.7.0 | 启用 | 17 个：caveman, cavecrew, caveman-commit, caveman-compress, caveman-discover, caveman-evidence-review, caveman-explore, caveman-help, caveman-init, caveman-learn, caveman-manage, caveman-optimize, caveman-setup, caveman-stats, lean-build, safe-refactor, surgical-patch；另含 3 个 agent：cavecrew-builder, cavecrew-investigator, cavecrew-reviewer | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) |
-| mattpocock-skills | 1.3.1 | 启用（当前加载失败，缓存缺 `skills/engineering/*`） | 15 个：codebase-design, domain-modeling, grill-me, grill-with-docs, grilling, handoff, improve-codebase-architecture, pr, prototype, research, retro, teach, to-questionnaire, wait-what, wizard | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| mattpocock-skills | 1.3.1 | 启用 | 27 个：ask-matt, code-review, codebase-design, diagnosing-bugs, domain-modeling, grill-me, grill-with-docs, grilling, handoff, implement, implement-spec, improve-codebase-architecture, pr, prototype, research, retro, setup-matt-pocock-skills, tdd, teach, to-questionnaire, to-spec, to-tickets, triage, wait-what, wayfinder, wizard, writing-for-agents | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)（上游 [mattpocock/skills](https://github.com/mattpocock/skills)） |
 | dev-skills | 1.0.0 | 启用 | 13 个：ai-regression-testing, api-and-interface-design, context-budget, contract-first, database-migrations, design-taste-frontend, e2e-testing, error-handling, frontend-ui-engineering, observability-and-instrumentation, performance-optimization, regex-vs-llm-structured-text, security-and-hardening | 本地目录 marketplace `dev-skills-local`，无上游仓库 |
 | ralph-loop | 1.0.1 | 启用 | 3 个：ralph-loop, cancel-ralph, help | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | cicd-skills | 1.0.0 | 启用 | 2 个：ci-cd-pipeline, gh-fix-ci | 本地目录 marketplace `cicd-skills-local`，无上游仓库 |
@@ -18,7 +18,7 @@
 | anthropic-dev-skills | 1.0.0 | 启用 | 1 个：mcp-builder | 本地目录 marketplace `anthropic-skills-local`，无上游仓库 |
 | slide-maker | 5.8.0 | 启用 | 1 个：slide-maker | [addsumtech/slides_maker](https://github.com/addsumtech/slides_maker) |
 
-合计 68 个技能。
+合计 80 个技能。
 
 ### 已安装但停用
 
