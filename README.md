@@ -30,12 +30,12 @@ jdtls-lsp（Java）、pyright-lsp（Python）、typescript-lsp（TypeScript/Java
 
 | 名称 | 版本 | 安装方式 | 来源 | 说明 |
 |---|---|---|---|---|
-| github | 1.9.0 | 二进制 `~/.local/bin/github-mcp-server` | [github/github-mcp-server](https://github.com/github/github-mcp-server) | 通过 `github-mcp-server-launcher.sh` 启动，token 由 `gh auth token` 运行时注入，不落盘 |
+| github | 2.0.3 | 二进制 `~/.local/bin/github-mcp-server` | [github/github-mcp-server](https://github.com/github/github-mcp-server) | 通过 `github-mcp-server-launcher.sh` 启动，token 由 `gh auth token` 运行时注入，不落盘 |
 | codebase-memory-mcp | 0.12.1 | 二进制 `~/.local/bin/codebase-memory-mcp` | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 代码图谱索引与查询，数据在 `~/.cache/codebase-memory-mcp/` |
 | chrome-devtools | 1.12.0 | `npm i -g chrome-devtools-mcp` | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 浏览器调试，启动参数 `--no-usage-statistics` |
-| context7 | 4.1.1 | `npm i -g @upstash/context7-mcp` | [upstash/context7](https://github.com/upstash/context7) | 库文档检索 |
-| dbhub | 1.3.1 | `npm i -g @bytebase/dbhub` | [bytebase/dbhub](https://github.com/bytebase/dbhub) | 当前以 `--demo` 模式运行 |
-| playwright | 0.0.82 | `npm i -g @playwright/mcp` | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 浏览器自动化，环境变量 `PLAYWRIGHT_DOWNLOAD_HOST` 指向下载镜像 |
+| context7 | 4.4.4 | `npm i -g @upstash/context7-mcp` | [upstash/context7](https://github.com/upstash/context7) | 库文档检索 |
+| dbhub | 1.5.0 | `npm i -g @bytebase/dbhub` | [bytebase/dbhub](https://github.com/bytebase/dbhub) | 当前以 `--demo` 模式运行 |
+| playwright | 0.0.83 | `npm i -g @playwright/mcp` | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 浏览器自动化，环境变量 `PLAYWRIGHT_DOWNLOAD_HOST` 指向下载镜像 |
 
 ## 其他本地内容
 
